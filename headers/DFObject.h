@@ -49,7 +49,7 @@
 
 + (id)objectWithValues:(NSDictionary *)values;
 
-// Call this method to set add or remove a class observer. Observers will be notified in the order they have registered
+// Call the following methods to add or remove a class observer. Observers will be notified in the order they have registered
 // to listen to the subclass
 // addObserver: will retroactively notify the observer of any past object creations (fetched from device cache and locally/remotely created)
 
